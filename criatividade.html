@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Criatividade</title>
+	<meta charset='utf-8'>
+	<meta name='keywords' content='HTML, CSS, JavaScript'>
+	<meta name="author" content="Nicolly Scheitel Bessa, Manuela de Caria Bertanha">
+	<link rel='stylesheet' type='text/css' href='home.css'>
+	<style>
+		.texto{
+			   padding:10px;
+			   text-align:justify;
+			   text-indent:20px;
+			   font-size:19px;}
+		 .box{
+			   margin:95px 80px 0px 80px;
+			   border:3px solid #003300;
+			   padding:15px;
+			   background:#FAC5B7;
+			   text-indent:15px;
+			   text-align:justify;
+			   font-family:'Book Antiqua', 'Times New Roman';
+			   font-size:18px;}
+         .box2{
+               width:450px;
+               height:190px;
+               font-family:Arial, 'Times New Roman';
+			   text-align:center;
+               margin-right:30px;
+			   background-color:#FF7276;
+		       padding:20px;}
+		 .box3{
+			   width:450px;
+			   height:190px;
+			   font-family:Arial, 'Times New Roman';
+			   text-align:center;
+			   background-color:#FF7276;
+			   padding:20px;}
+		 iframe{
+				margin-left:400px;}
+	</style>
+	<script>
+		function leiaMais(){
+	var pontos=document.getElementById("pontos");
+	var maisTexto=document.getElementById("mais");
+	var btnLeiaMais=document.getElementById("btnLeiaMais");
+
+	if (pontos.style.display === "none"){
+		pontos.style.display ==="inline";
+		maisTexto.style.display="none";
+		btnLeiaMais.innerHTML="Leia Mais";
+	}
+	else{
+		pontos.style.display="none";
+		maisTexto.style.display="inline";
+		btnLeiaMais.innerHTML="Leia Menos";
+	}
+}
+	</script>
+</head>
+<body>
+  <header>
+	<div class="nome"> Florescer na Pandemia </div>
+		         <nav>
+		             <ul class="navbar">
+			            <li> <a href="index.html"> Saúde Mental </a> </li>
+			            <li> <a href="desigualdades.html"> Desigualdades </a> </li>
+			            <li> <a href="criatividade.html"> Criatividade </a> </li>
+			            <li> <a href="contato.html"> Contato </a> </li>
+		             </ul>
+		         </nav>
+		         <hr style="margin-top:95px"> </hr> <br/>
+		         <h1 style="text-align:center"> Criatividade </h1>
+  </header> <br/>
+
+		  <section> 
+		  	<h2 style="text-align:center; margin-top:80px" class="box"> Como o isolamento social interferiu na capacidade de criar </h2>
+		  	<p class="texto" class="box"> A pandemia colocou as mentes criativas num impasse. Se, por um lado, o isolamento em casa forneceu um refúgio favorável ao pensamento, por outro, as pessoas acabaram privadas de experiências que funcionavam como combustível para a criação. Num mundo em que se demanda cada vez mais inovação, a criatividade é um dos temas mais discutidos em conversas com profissionais durante a pandemia. Em momentos de inflexão, instabilidade e ruptura, a criatividade humana expande suas fronteiras. A cada nova convulsão, negócios e iniciativas de impacto social se multiplicam. O “lucro pelo lucro” dá lugar a um olhar humanizado, sustentável e impregnado de atitude voltada ao bem maior. A inovação aliada à criatividade é a chave para todo e qualquer novo empreendimento ou iniciativa. Ambas são pontos de um processo que busca inserir algo novo ou solucionar um problema à vista. </p> 
+		  </section>
+
+          <section>
+		  	<h2 style="text-align:center; margin-top:80px" class="box"> No trabalho </h2>
+		  	<p class="texto" class="box"> Uma das teorias levantadas é a de que o home office, ou o trabalho remoto feito em massa, pode ter dado insights diferentes para o cérebro dos criativos. E foi exatamente disso que a pandemia de Covid-19 obrigou a todos fazerem: reverem seus conceitos de vida pessoal e profissional. Apesar do chamado “novo normal” ter pedido poder de adaptação de grande parte das pessoas, quando foi pedido aos entrevistados para classificarem o ano de 2020, cerca de 35% disseram se sentir mais gratos do que antes e, pasmem, cerca de 20% dos respondentes se sentiram mais animados e eficientes, ainda que tivessem de lidar com adaptações. E entre as pessoas que assumiram novos trabalhos e cargos no ano da pandemia, cerca de 66% disseram se sentir mais criativos nesse desafio do que estavam anteriormente.
+		  		<br></br> Mas de onde vêm as boas ideais na pandemia? <span id="pontos">...</span><span id="mais"> <br><br> As pressões excessivas do trabalho, ou seja, as cobranças desnecessárias, atrapalhavam na hora de ter ideias criativas para resolver os problemas. Se comparado com dados de 2020, fica claro que esse ambiente profissional ultracompetitivo é muito pior para que o cérebro pense em novas saídas do que as alterações de vida trazidas pela Covid-19. As pessoas colocaram, pela primeira vez em tempos, seu bem-estar pessoal em primeiro lugar. Buscar cozinhar melhor, dormir bem e se exercitar regularmente viraram tendências de comportamento e de buscas na internet. </span></p>
+		  		<button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
+		  </section>
+
+		  <section>
+		  	<h2 style="text-align:center; margin-top:80px" class="box"> Em relação ao Covid-19 </h2>
+		  	<p class="texto" class="box"> Por outro lado, o momento de pressão e instabilidade tem funcionado como combustível para mentes inquietas e dispostas a gerar valor comunitário e mercadológico, com soluções para proteção, combate e gestão da pandemia que já atingiu mais de 7,9 milhões de pessoas pelo mundo. As iniciativas partem de diferentes territórios, instituições, parcerias e empresas, passando por equipamentos de proteção, monitoramento à camas-caixões biodegradáveis. Produtos e serviços gerados a partir da criatividade propositiva são capazes de causar impactos locais que, somados, fazem a diferença em um momento social inédito em escala e proporção.</p>
+
+		  	<p class="texto" style="float:left"> O CEO e publisher da Forbes, Antonio Camarotti, conversa com o CEO da N Ideias, Nizan Guanaes, sobre a criatividade como antídoto da crise atual. </p>
+
+	        <iframe width="560" height="315" src="https://www.youtube.com/embed/K_9hYWeiVxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  </section>
+
+    <section>
+		<article style="margin-left:160px">
+		  <p class="box2" style="float:left"> <br>A criatividade é um processo de esforço, que consiste em adquirir conhecimento, experiências e exercitar a mente. Em época de pandemia, isso se torna ainda mais difícil. O ambiente de trabalho não é só mais da empresa, mas você tem que torná-lo propício para a criatividade, que faça você se sentir bem. Outro ponto essencial é manter as atividades de lazer, a conversa com amigos, mesmo pela internet, e coisas que te façam bem, pois um cérebro oprimido, angustiado, não consegue pensar. </p>
+		  <p class="box3" style="float:left"> <br><br><br>Ainda não há uma previsão de quando a pandemia chegará ao fim. Por isso, é preciso se adaptar, criar e até se reinventar. Ver o que pode ser feito para manter o negócio ou mesmo para desenvolver um novo. Afinal, justamente em momentos de crise aparecem as melhores oportunidades. </p>
+		</article>
+	</section>
+
+	<div>
+		<h2 style="float:left; margin-top:50px; margin-left:10px"> Como os artistas têm tirado inspiração da crise atual </h2>
+		<p class="texto" style="float:left; text-align:justify">Na Alemanha, um grafite representa o personagem Gollum, da série de livros e filmes ‘Senhor dos Anéis’ segurando um rolo de papel higiênico e chamando – o de “Meu precioso” (em alemão), inspirado no coronavírus. (Foto: Annegret Hilse/Reuters – reprodução Globo) </p>
+		<img src="artecovid.jpeg" style="width=740px; height:415px; margin-left:10px"></img>
+		<p class="texto" style="float:left; text-align:justify"> Em Bristol, na Inglaterra, o artista  Luke Jerram produziu uma escultura de vidro representando o coronavírus. Intitulada ‘coronavirus – COVID-19‘, a peça tem 23cm e está exposta no estúdio do artista. (Foto: Josep Lago/AFP – reprodução Globo)</p>
+	    <img src="stayhome.jpeg" style="width:740px; height:415px; margin-left:10px"></img>
+    </div>
+	    <hr style="margin-top:130px"> </hr>
+        <hr> </hr>
+		<footer style="margin-top:30px; margin-bottom:30px; text-align:center; font-size:18px"> </footer>
+		
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+

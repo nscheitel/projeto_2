@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+	      <title> Desigualdades </title>
+	      <meta charset="utf-8">
+	      <meta name="keywords" content="HTML, CSS, JavaScript">
+		  <meta name="author" content="Nicolly Scheitel Bessa, Manuela de Caria Bertanha">
+          <link rel="stylesheet" type="text/css" href="home.css">
+		  <link rel="stylesheet" type="text/css" href="desigual.css">
+		  <script>
+		          function enquete(){
+				        alert('Por gentileza, responda SIM ou NÃO');
+						var resposta = prompt('As desigualdades presentes no Brasil te incomodam?').toLowerCase();
+						if (resposta != 'sim' && resposta != 'não'){
+                                alert('Resposta inválida!');					
+						}
+				        if (resposta == 'sim'){
+                                alert('E o que você tem feito para alterar esse cenário?');						
+						}
+				        if (resposta == 'não'){
+						        alert('Você acredita que elas não te atingem?');
+						}
+				  }
+		  </script>
+	 </head>
+     <body>
+	      <header>
+		         <div class="nome"> Florescer na Pandemia </div>
+		         <nav>
+		             <ul class="navbar">
+			            <li> <a href="index.html"> Saúde Mental </a> </li>
+			            <li> <a href="desigualdades.html"> Desigualdades </a> </li>
+			            <li> <a href="criatividade.html"> Criatividade </a> </li>
+			            <li> <a href="contato.html"> Contato </a> </li>
+		             </ul>
+		         </nav>
+		  </header>
+		  <article>
+		          <p class="p1"> A pandemia que desligou o motor do planeta durante meses proporcionou uma visão sem precedente da chaga da desigualdade,
+				                 doença social com a qual a humanidade convive, em vergonhosa desatenção, há séculos. Segundo Paolo Nosella (Doutor em
+								 Filosofia da Educação), “[...] o principal problema ético da atualidade é decorrente da contradição entre uma superconcentração
+							     de riquezas e o aumento desmedido da pobreza. Poucos centros de riquezas, de um lado, e enormes regiões de misérias, de outro”.
+								 A relação entre epidemia/pandemia e vulnerabilidade social já foi constatada em outros momentos históricos, como nos casos da
+								 gripe espanhola, H1N1 (Gripe Suína) e SARS (Síndrome Respiratória Aguda Grave), constatando que as desigualdades sociais
+								 são determinantes para a taxa de transmissão e severidade dessas doenças. </p>
+				  <button onclick="enquete();"> - Reflexão - </button>
+                  <img id="icone" src="desigual_corte.png"> </img>
+		  </article>
+		  <section>
+		          <img id="grafic" src="gráfico.jpg"> </img>
+		  </section>
+		  <script>
+                document.write('<p class="t1"> O gráfico ao lado demonstra uma das facetas da desigualdade econômica brasileira: o 1% mais rico da população detém quase um terço da renda nacional. </p>');				        
+				document.write('<p class="t2">Segundo o economista Armínio Fraga (ex-presidente do Banco Central), "A crise decorrente da pandemia reforçou a necessidade urgente de criarmos estratégias para que o capital seja injetado em projetos que reduzam a desigualdade social”. </p>');
+		  </script>
+		  <article style="clear:both">
+				  <h1 class="racial"> Desigualdade racial: </h1>
+				  <h1 class="racial2"> população negra e covid-19 </h1>
+				  <p id="p2"> As doenças não são entidades democráticas. Pelo contrário, elas têm incidências determinadas pela renda, pela idade, pelo gênero e por questões
+				              raciais. Diante da pandemia provocada pelo novo coronavírus, diversos segmentos da sociedade encontram-se em maior vulnerabilidade. Com relação à população negra,
+					          Altair Lira (professor do Instituto de Humanidades, Artes e Ciências da UFBA) menciona: “Estamos falando de um grupo que carrega dificuldades estruturais no seu viver,
+					          provocada por um racismo estrutural e estruturante, que começa desde a informação que chega a essa população até o acesso a exames para detecção do vírus, principalmente
+					          no que chamamos de casos suspeitos”. </p> <br/> <br/>
+		          <iframe width="560" height="315" src="https://www.youtube.com/embed/gBYk4ePmS6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		          <img id="olhos" src="olho.jpg"> </img>
+				  <p style="color:#3d658f; font-size:25px; margin-left:92px; margin-top:5px"> <b> DE OLHO no audiovisual </b> </p>  
+		  </article>
+		  
+		  <section style="margin-top:150px">
+		          <h1 id="genero"> QUESTÃO DE GÊNERO<br><br>"Pandemia adia igualdade de gênero por mais uma geração" </h1>
+		          <p id="genero2"> "Fórum Econômico Mundial calcula que o tempo necessário para alcançar a paridade passou de 99,5 para 135,6 anos nos últimos 12 meses. O Brasil ocupa a 93ª colocação entre 156 países." <br>- El País </p>
+				  <a href="https://brasil.elpais.com/sociedade/2021-03-31/pandemia-adia-igualdade-de-genero-por-mais-uma-geracao.html" target="_blank"> <img src="mulheres.jpg" style="width:662.4px; height:372.8px" id="mulheres"> </img> </a>
+				  <p style="font-size:18px; color:#B418B4; float:right; margin-right:115px"> <b>Manifestação feminista em 8 de março deste ano, em Barcelona.</b> </p>
+		  </section>
+		  <footer style="position:relative; top:100px">
+		        <hr style="width:1332px"> </hr>
+				<hr> </hr> <br/> <br/>
+		  </footer>
+     </body>
+</html>
