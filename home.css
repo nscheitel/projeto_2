@@ -1,0 +1,36 @@
+.nome{
+	  background-color:#FFD280;
+	  padding:50px;
+	  border-bottom:10px solid #A2242F; 
+      font-family:"Book Antiqua", "Times New Roman";
+	  text-transform:capitalize;
+	  color:#003300;
+	  text-align:center;
+	  font-size:45px;}
+	  
+nav{
+	padding:10px 0px 0px 745px;
+	margin:0px;}
+
+.navbar{position:absolute;}
+
+.navbar li {
+	        font-size:18px;
+	        padding:20px 10px 10px 10px;
+	        float:left;
+	        list-style-type:none;}
+
+
+li a{
+	 padding:20px 10px 10px 10px;
+	 color:#000;
+	 text-decoration:none;
+	 font-family:Arial, "Times New Roman";}
+
+li a:hover{
+	       padding:8px 8px 8px 8px;
+	       background-color:#F7A38E;}
+
+.navbar li:hover ul{display:block;}
+
+

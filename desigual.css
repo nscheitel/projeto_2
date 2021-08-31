@@ -1,0 +1,116 @@
+#icone{
+		position:relative;
+		top:160px;
+		left:380px;
+		width:602.4px;
+		height:200px;}
+
+.p1{
+	padding:20px;
+	position:relative;
+	top:100px;
+	background-color:#F7D4D6;
+	border:solid 4px #F1C1C5;
+	font-size:20px;
+	text-align:center;
+	margin-right:35px;
+	margin-left:35px;}
+
+#grafic{
+		position:relative;
+		top:240px;
+		left:100px;
+		clear:both;}
+		
+button{
+	   position:absolute;
+	   top:455px;
+	   right:55px;
+	   color:#003300;}
+
+.t1{
+	font-size:20px;
+    padding:20px;
+    text-align:center;
+	background-color:#FFD280;
+    position:relative;
+	left:580px;
+    top:-270px;
+    width:300px;
+	border:solid 4px #4D6600;
+	border-radius:10px;}
+
+.t2{
+    font-size:20px;
+    padding:20px;
+    text-align:center;
+	background-color:#FFD280;
+	float:right;
+	margin-right:90px;
+    position:relative;
+    top:-340px;
+    width:300px;
+	border:solid 4px #4D6600;
+	border-radius:10px;}
+
+.racial{
+		font-size:30px;
+	    font-family:'Book Antiqua', 'Times New Roman';
+	    position:absolute;
+		top:1460px;
+		left:545px;
+		clear:both;}
+
+.racial2{
+		 font-size:30px;
+	     font-family:'Book Antiqua', 'Times New Roman';
+	     position:absolute;
+		 top:1495px;
+		 left:500px;
+		 clear:both;}
+		 
+#p2{
+	font-size:20px;
+    padding:20px;
+    text-align:center;
+	background-color:#C9D8E8;
+	border:solid 4px #9BB7D4;
+	border-radius:15px;
+	clear:both;}
+	
+iframe{
+	   float:right;
+	   margin-right:100px;
+	   clear:both;}
+	   
+#olhos{
+	   width:260px;
+	   height:260px;
+	   margin-left:100px;
+	   clear:both;}
+	   
+#genero{
+	    color:;
+		font-size:27px;
+		text-align:center;
+		padding:20px;
+		border-radius:30px;
+		border:dotted 5px #B418B4;
+		width:1200px;
+		margin-left:40px;}
+
+#genero2{
+	     border:solid 5px #A2242F;
+		 padding:20px;
+		 font-size:20px;
+		 text-align:center;
+		 width:240px;
+         border-radius:10px;
+		 margin-left:120px;
+		 float:left;
+		 margin-top:120px;
+		 background-color:#FFD280;}
+
+#mulheres{float:left;
+          margin-left:150px;
+		  margin-top:40px;}
